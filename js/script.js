@@ -1,11 +1,21 @@
-$(document).ready(function(){
-        $(window).scroll(function(){
-            if ($(this).scrollTop() > 200) {
-                $('#mainNav').fadeOut(500);
-                $('footer').fadeOut(500);
-            } else {
-                $('#mainNav').fadeIn(500);
-                $('footer').fadeIn(500);
-            }
-        });
-    });
+$(window).scroll(function() {
+  var scrollTop = $(this).scrollTop();
+
+  $('#mainNav').css({
+    opacity: function() {
+      var elementHeight = $(this).height(),
+          opacity = ((1 - (elementHeight - scrollTop) / elementHeight) * 0.78);
+
+      return opacity;
+    }
+  });
+
+  $('footer').css({
+    opacity: function() {
+      var elementHeight = $(this).height(),
+          opacity = ((1 - (elementHeight - scrollTop) / elementHeight) * 0.78);
+
+      return opacity;
+    }
+  });
+});
