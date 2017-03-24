@@ -243,64 +243,111 @@ border-width: 2px;
 #footer-fade {
   opacity:0;
 }
-
-/* ----------- iPhone 5 and 5S ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
+/*--------------- Iphone 4------------------   */
 
 /* Portrait */
 @media only screen
   and (min-device-width: 320px)
-  and (max-device-width: 568px)
+  and (max-device-height: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .login {
-      margin-top: -65px;
-    }
-    .header-image {
-      padding-top: 153px;
-      width: 207px;
-    }
+  .feature-message {
+    padding-top:125px;
+  }
 
-    .feature-message {
-      padding-top: 156px;
-    }
+  .message-fly {
+    padding-top:86px;
+  }
 }
 
-/* Landscape */
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait */
 @media only screen
   and (min-device-width: 320px)
-  and (max-device-width: 568px)
+  and (min-device-height: 520px)
+  and (max-device-height: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-    .header-image {
-      width: 181px;
-      padding-top: 86px;
-    }
-
-    .login {
-      margin-top: -122px;
-    }
-
-    .feature-message {
-      padding-top: 114px;
-      height:81vh;
-    }
-
-    #story .comics img {
-    width: 75%;
-    margin: 0 auto;
-    display: block;
-
-    #contact {
-     height: 87vh;
+  and (orientation: portrait) {
+    .fa-caret-down {
+      margin-top: 195px;
+   }
+   .header-image {
+     width: 233px;
+     padding-top: 123px;
+   }
+   #features {
+     height:53vh;
    }
 
+   .message-fly {
+     padding-top: 109px;
+   }
 }
+/* Landscape */
+/*--------------IPHONE 6---------------*/
+@media only screen
+  and (min-device-width: 375px)
+  and (min-device-height: 600px)
+  and (max-device-height: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .header-image {
+      width: 245px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      padding-top: 162px;
+    }
+    #features{
+      height:48vh;
+    }
+
+    #contact {
+      height:52vh;
+    }
+    .message-fly {
+      font-size: 35px;
+    }
+
+    .fa-caret-down {
+      margin-top:241px;
+    }
+
+    .sub-header {
+      font-size:14px;
+    }
+  }
+
+  /*--------------IPHONE 6 Plus---------------*/
+  @media only screen
+    and (min-device-width: 400px)
+    and (max-device-width: 450px)
+    and (min-device-height: 700px)
+    and (max-device-height: 737px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+      .header-image {
+        width:302px;
+        padding-top:173px;
+      }
+
+      .fa-caret-down {
+        margin-top:262px;
+      }
+
+      #features {
+        height:43vh;
+      }
+
+      #contact {
+        height:49vh;
+      }
+
+      .message-fly {
+        font-size:36px;
+      }
+      .sub-header {
+        font-size:16px;
+      }
+    }
