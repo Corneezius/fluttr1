@@ -46,6 +46,7 @@ footer {
   bottom: 0px;
   width: 100%;
   background:black;
+  display:none;
 }
 
 #story .comics img {
