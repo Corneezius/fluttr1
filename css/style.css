@@ -12,14 +12,84 @@ html, body{
   border-color: black;
 }
 
-#bg {
+#cover {
   width:100%;
   height:100vh;
-  background: #6f0000; /* fallback for old browsers */
+}
 
+.cover-bg-one {
+  background: #6f0000;
+}
 
+.cover-bg-two {
+  background: #780206; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #780206 , #061161); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #780206 , #061161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cover-bg-three {
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #000428 , #004e92); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #000428 , #004e92); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+
+.cover-bg-five {
+  background: #0B486B; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #0B486B , #F56217); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #0B486B , #F56217); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+  }
+
+.cover-bg-six {
+  background: #44A08D; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #44A08D , #093637); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #44A08D , #093637); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cover-bg-seven {
+  background: #6A9113; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #141517 , #6A9113); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #141517 , #6A9113); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cover-bg-eight {
+  background: #5A3F37; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #5A3F37 , #2C7744); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #5A3F37 , #2C7744); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cover-bg-nine {
+  background: #3a6186; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cover-bg-ten {
+  background: #1D4350; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #1D4350 , #A43931); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #1D4350 , #A43931); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cover-bg-eleven {
+  background: #200122; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #200122 , #6f0000); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #200122 , #6f0000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+.cover-bg-twelve {
+  background: #141E30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #141E30 , #243B55); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #141E30 , #243B55); /
+}
+
+
+.cover-bg-thirteen {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #000000 , #53346D); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #000000 , #53346D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 
 #features {
   height:58vh;
