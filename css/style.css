@@ -69,11 +69,11 @@ footer {
 }
 
 .header-image {
-  width:150px;
+  width:224px;
   height:auto;
   display:block;
   margin:0 auto;
-  padding-top:170px;
+  padding-top:118px;
 
 }
 .fa-caret-down{
@@ -84,10 +84,10 @@ color: gold;
 font-size: 12px;
 }
 
-.btn {
+.login {
   display: block;
   margin: 0 auto;
-  margin-top: -88px;
+  margin-top: -61px;
   border-radius: 50%;
   height: 25px;
   width: 9px;
