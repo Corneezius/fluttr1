@@ -170,3 +170,7 @@ border-width: 2px;
 .fadeInBlock {
   opacity:0;
 }
+
+#footer-fade {
+  opacity:0;
+}
