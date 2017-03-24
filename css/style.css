@@ -163,6 +163,7 @@ border-width: 2px;
   background: #200122;
   background: -webkit-linear-gradient(to left, #200122 , #6f0000);
   background: linear-gradient(to left, #200122 , #6f0000);
+  display:none;
 }
 
 .fadeInBlock {
