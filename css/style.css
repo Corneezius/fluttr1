@@ -351,3 +351,34 @@ border-width: 2px;
         font-size:16px;
       }
     }
+
+    /*-----Samsung---------------*/
+    @media only screen
+      and (min-device-width: 360px)
+      and (max-device-width: 370px)
+      and (min-device-height: 630px)
+      and (max-device-height: 650px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) {
+        .fa-caret-down {
+          margin-top: 232px;
+        }
+        #features {
+          height:50vh;
+        }
+
+        #contact {
+          height:54vh;
+        }
+        .message-fly {
+          font-size:36px
+        }
+        .sub-header {
+          font-size:16px;
+        }
+
+        .header-image {
+          width:253px;
+          padding-top:140px;
+        }
+      }
