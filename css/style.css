@@ -17,6 +17,9 @@ html, body{
   height:100vh;
 }
 
+#team {
+  display:none;
+}
 .cover-bg-one {
   background: #6f0000;
 }
@@ -467,12 +470,14 @@ font-size: 12px;
     .section-heading {
       padding-bottom:70px;
       font-size:50px;
+      padding-top:70px;
     }
 
     .feature-heading {
       font-size: 50px;
       padding-top: 91px;
       text-transform:uppercase;
+      padding-bottom:90px;
     }
 
     .text-primary {
@@ -493,13 +498,20 @@ font-size: 12px;
       margin:0 auto;
     }
 
+    #team {
+      display:block;
+    }
+
     #features{
       height:30vh;
       display:none;
     }
 
-    #team {
-      display:none;
+    #social-media {
+      height:30vh;
+      background: #fdcc52;
+      background: -webkit-linear-gradient(#fdcc52, #fdc539);
+      background: linear-gradient(#fdcc52, #fdc539);
     }
   }
 
@@ -515,4 +527,16 @@ font-size: 12px;
   padding-left:50px;
   max-width: 88%;
   padding-bottom:50px;
+}
+
+.linkedin {
+  width: 52px;
+  padding-bottom: 50px;
+}
+
+.team {
+  width: 167px;
+  margin-top: -30px;
+  margin-bottom: 35px;
+  border-radius: 15px;
 }
