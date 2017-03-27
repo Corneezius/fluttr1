@@ -502,6 +502,14 @@ font-size: 12px;
       display:block;
     }
 
+    #mainNav {
+      height:50px;
+    }
+
+    footer {
+      height:50px;
+    }
+
     #features{
       height:30vh;
       display:none;
