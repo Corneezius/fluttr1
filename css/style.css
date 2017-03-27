@@ -457,6 +457,8 @@ font-size: 12px;
 
     .sub-slider-text {
       font-size: 16px;
+      font-family:sans-serif;
+      letter-spacing:1px;
     }
 
     #slider .block h2 {
@@ -570,7 +572,7 @@ font-size: 12px;
     }
 
     .sub-slider-text {
-      font-size: 17px;
+      font-size: 18px;
     }
 
     #cover {
@@ -590,4 +592,37 @@ font-size: 12px;
     .slider-text-area {
       padding-top:40px;
     }
+  }
+
+  @media only screen and (min-device-width:1600px) {
+    #hero {
+      height:100vh;
+    }
+
+    .slider-text-area {
+      padding-top:105px;
+    }
+
+    #slider .block h2 {
+      font-size:105px;
+    }
+
+    .sub-slider-text {
+      font-size:20px;
+      line-height:84px;
+    }
+
+    .header-button {
+      font-size:15px;
+    }
+
+    #cover{
+      height:31vh;
+    }
+
+    .header-image {
+      padding-top:53px;
+      width:242px;
+    }
+
   }
