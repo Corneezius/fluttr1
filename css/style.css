@@ -583,6 +583,10 @@ font-size: 12px;
       font-size:89px;
     }
 
+    #cover {
+      height: 39vh;
+    }
+
     .slider-text-area {
       padding-top:40px;
     }
