@@ -94,6 +94,32 @@ html, body{
   background: linear-gradient(to left, #000000 , #53346D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.carousel-inner > .item > img {
+    max-width: 88%;
+    padding-bottom:100px;
+}
+.team-message {
+  color:white;
+  text-align:center;
+  padding-bottom: 30px;
+}
+.boy-drawing {
+  padding-left:50px;
+  max-width: 88%;
+  padding-bottom:50px;
+}
+
+.linkedin {
+  width: 52px;
+  padding-bottom: 50px;
+}
+
+.team {
+  width: 167px;
+  margin-top: -30px;
+  margin-bottom: 35px;
+  border-radius: 15px;
+}
 
 #features {
   height:58vh;
@@ -434,7 +460,7 @@ font-size: 12px;
     }
 
     #slider .block h2 {
-      font-size:62px;
+      font-size:56px;
     }
 
     #contact {
@@ -521,31 +547,43 @@ font-size: 12px;
       background: -webkit-linear-gradient(#fdcc52, #fdc539);
       background: linear-gradient(#fdcc52, #fdc539);
     }
+
+    .header-button {
+      margin-top: 56px;
+      background: black;
+      border: 1px solid black;
+      color: white;
+      font-size: 12px;
+      border-radius: 5%;
+      text-transform: uppercase;
+    }
+
+    .header-button:hover {
+      background:black;
+      color:white;
+    }
   }
 
-  .carousel-inner > .item > img {
-    max-width: 88%;
-    padding-bottom:100px;
-}
-.team-message {
-  color:white;
-  text-align:center;
-  padding-bottom: 30px;
-}
-.boy-drawing {
-  padding-left:50px;
-  max-width: 88%;
-  padding-bottom:50px;
-}
+  @media only screen and (min-device-width:1024px) {
+    #slider .block h2 {
+      font-size:81px;
+    }
 
-.linkedin {
-  width: 52px;
-  padding-bottom: 50px;
-}
+    .sub-slider-text {
+      font-size: 17px;
+    }
 
-.team {
-  width: 167px;
-  margin-top: -30px;
-  margin-bottom: 35px;
-  border-radius: 15px;
-}
+    #cover {
+      height: 33vh;
+    }
+  }
+
+  @media only screen and (min-device-width:1200px) {
+    #slider .block h2 {
+      font-size:89px;
+    }
+
+    .slider-text-area {
+      padding-top:40px;
+    }
+  }

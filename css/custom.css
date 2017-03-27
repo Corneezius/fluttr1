@@ -68,7 +68,7 @@ section{
     background: #F5FAF9;
 }
 .nav-logo span{
-    font-size: 24px;
+    font-size: 21px;
 }
 .btn-default-dark{
     background-color: black !important;
@@ -78,7 +78,6 @@ section{
     right: 10%;
     bottom: 10%;
     margin-top: 50px;
-    display:none;
 }
 #app-store img{
     height: 36px;
