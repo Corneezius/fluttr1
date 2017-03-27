@@ -26,4 +26,5 @@ $(document).ready(function() {
     $('#cover').each(function(i, val) {
         $(this).addClass(background[Math.floor(Math.random() * background.length)]);
     });
+    $('#team').addClass( $('#cover').attr('class') );
 });

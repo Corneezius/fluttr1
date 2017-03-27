@@ -102,7 +102,6 @@ html, body{
 }
 
 #story {
-  height:100%;
   background: #200122; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #200122 , #6f0000); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #200122 , #6f0000); /* W3C, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */*/*/
@@ -124,6 +123,7 @@ footer {
 }
 
 #story .comics {
+
 
 }
 
@@ -184,7 +184,7 @@ font-size: 12px;
 .section-heading {
   margin-top: 0;
   font-size: 33px;
-  font-family: Catamaran,Helvetica,Arial,sans-serif;
+  font-family: Gotham, Catamaran,Helvetica,Arial,sans-serif;
   font-weight: 200;
   text-tranform: uppercase;
   letter-spacing: 1px;
@@ -196,6 +196,7 @@ font-size: 12px;
   width:100%;
   color:white;
   padding-top:130px;
+  height:100%;
 }
 
 #contact {
@@ -207,10 +208,10 @@ font-size: 12px;
 
 .message-fly {
   text-align: center;
-  padding-top: 102px;
+  padding-top: 86px;
   text-transform: uppercase;
-  font-size: 30px;
-  font-family: Catamaran,Helvetica,Arial,sans-serif;
+  font-size: 26px;
+  font-family: gotham, Catamaran,Helvetica,Arial,sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
 
@@ -224,9 +225,9 @@ font-size: 12px;
 }
 
 .sub-header {
-  font-family: Catamaran,Helvetica,Arial,sans-serif;
+  font-family: gotham,Catamaran,Helvetica,Arial,sans-serif;
   font-weight: 300;
-  letter-spacing: 1px;
+  font-size: 12px;
 }
 
 .preview {
@@ -240,8 +241,9 @@ font-size: 12px;
   font-size: 12px;
   margin-top:10px;
   border: #fdcc52;
-border-style: solid;
-border-width: 2px;
+  border-style: solid;
+  border-width: 2px;
+  color:white;
 }
 
 #social-media {
@@ -297,7 +299,7 @@ border-width: 2px;
    }
 
    .message-fly {
-     padding-top: 109px;
+     padding-top: 103px;
    }
 }
 /* Landscape */
@@ -323,7 +325,9 @@ border-width: 2px;
       height:52vh;
     }
     .message-fly {
-      font-size: 35px;
+      font-size: 30px;
+      padding-top: 106px;
+
     }
 
     .fa-caret-down {
@@ -361,10 +365,11 @@ border-width: 2px;
       }
 
       .message-fly {
-        font-size:36px;
+        font-size:33px;
+        padding-top: 106px;
       }
       .sub-header {
-        font-size:16px;
+        font-size:15px;
       }
     }
 
@@ -384,23 +389,130 @@ border-width: 2px;
         }
 
         #contact {
-          height:54vh;
+          height:49vh;
         }
         .message-fly {
-          font-size:36px
+          font-size:28px;
         }
         .sub-header {
-          font-size:16px;
+          font-size:14px;
         }
-
         .header-image {
           width:253px;
           padding-top:140px;
         }
       }
 
-  @media only screen and (max-device-width:767px) {
+  #hero {
+      display:none;
+    }
+
+    #feature-set {
+      display:none;
+      background:white;
+      font-family:gotham;
+    }
+
+  @media only screen and (min-device-width:768px) {
     #hero {
+      display:block;
+    }
+
+    #feature-set {
+      display:block;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+      font-size:12px;
+    }
+
+    .sub-slider-text {
+      font-size: 16px;
+    }
+
+    #slider .block h2 {
+      font-size:62px;
+    }
+
+    #contact {
+      display:none;
+    }
+
+    #cover {
+      height:43vh;
+    }
+    .header-image {
+      width:181px;
+      padding-top: 57px;
+    }
+    #features {
+      height:100vh;
+    }
+    .login {
+      display:none;
+    }
+
+    .fa-caret-down {
+      display:none;
+    }
+
+    .comics {
+      display:none;
+    }
+    .feature-message {
+      height:100%;
+      padding-top:70px;
+    }
+
+    .section-heading {
+      padding-bottom:70px;
+      font-size:50px;
+    }
+
+    .feature-heading {
+      font-size: 50px;
+      padding-top: 91px;
+      text-transform:uppercase;
+    }
+
+    .text-primary {
+     color: #fdcc52;
+    }
+
+    .feature-item {
+      max-width:300px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 100px;
+
+    }
+
+    #feature-line {
+      width:75%;
+      display:block;
+      margin:0 auto;
+    }
+
+    #features{
+      height:30vh;
+      display:none;
+    }
+
+    #team {
       display:none;
     }
   }
+
+  .carousel-inner > .item > img {
+    max-width: 88%;
+    padding-bottom:100px;
+}
+.team-message {
+  color:white;
+  text-align:center;
+}
+.boy-drawing {
+  padding-left:50px;
+  max-width: 88%;
+  padding-bottom:50px;
+}
