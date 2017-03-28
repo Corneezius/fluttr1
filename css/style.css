@@ -109,6 +109,18 @@ html, body{
   padding-bottom:50px;
 }
 
+.aka {
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: -15px;
+  display: block;
+  margin-top: 15px;
+}
+
+.code-name {
+  text-transform: uppercase;
+}
+
 .linkedin {
   width: 52px;
   padding-bottom: 50px;
