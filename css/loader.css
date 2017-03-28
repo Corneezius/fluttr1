@@ -3,6 +3,10 @@
   overflow:hidden;
 }
 
+.borboletas {
+  z-index: 1020;
+}
+
 
 #credit {
   top:50%;

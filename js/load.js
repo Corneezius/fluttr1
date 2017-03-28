@@ -11,6 +11,7 @@ $(document).ready(function() {
 	//
   setTimeout(function(){
 		$('#title').hide();
+		$('.borboletas').hide();
   }, 6000);
 		//
   setTimeout(function(){
