@@ -5,15 +5,30 @@
 		<meta charset="utf-8" content="width=device-width, initial-scale=1" />
 		<link rel="icon" type="image/png" href="css/images/newlogofinal.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="https://fonts.googleapis.com/css?family=Alegreya+SC|Allerta+Stencil|Black+Ops+One|Chelsea+Market|Cinzel|Cinzel+Decorative|Cormorant+SC|Fascinate+Inline|Finger+Paint|Freckle+Face|Fredericka+the+Great|Galindo|Gloria+Hallelujah|IM+Fell+DW+Pica+SC|IM+Fell+Double+Pica+SC|IM+Fell+English+SC|IM+Fell+Great+Primer+SC|Indie+Flower|Loved+by+the+King|Rock+Salt|Special+Elite" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.css" integrity="sha256-nBFRd4iXQgAv308dzcrSrU5vkKAT4SMXdZLJfN7MZeg=" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
 		<link rel="stylesheet" href="css/main.css">
 	  <link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="css/load.css" />
+		<link rel="stylesheet" href="css/loader.css" />
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
-  <body>
+  <body="noscroll">
+		<!-- Page Preloader  -->
+		<div id="loader-wrapper">
+			<div id="credit">Rumble Capital Presents</div>
+			<div class="title">
+				<div id="title">Fluttr One</div>
+			</div>
+
+			<!-- Panels open after time set in Blink.Js -->
+			<div class="loader-section section-left"></div>
+			<div class="loader-section section-right"></div>
+		</div>
+
    <div class="wrapper">
 		 <!-- big screen hero -->
 		 <div id="hero">
@@ -210,5 +225,6 @@
 	 <!-- Scripts -->
 	  <script src="js/jquery.min.js"></script>
 	  <script src="js/script.js"></script>
+		<script src="js/load.js"></script>
   </body>
 </html>
