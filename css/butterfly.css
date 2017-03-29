@@ -80,8 +80,8 @@ body {
 }
 .borboletas {
   position: absolute;
-  left: 30%;
-  bottom: 151px;
+  left: 20%;
+  bottom: 100px;
   -moz-animation: borboletas-pos-loop 7s ease-in-out infinite alternate-reverse;
   -webkit-animation: borboletas-pos-loop 7s ease-in-out infinite alternate-reverse;
   animation: borboletas-pos-loop 7s ease-in-out infinite alternate-reverse;

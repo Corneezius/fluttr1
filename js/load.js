@@ -1,5 +1,8 @@
 $(document).ready(function() {
 		$('#credit').hide(0).fadeIn(1000);
+		$('.borboletas').hide();
+
+
 
 	setTimeout(function(){
 		$('#credit').fadeOut(1000);
@@ -7,15 +10,16 @@ $(document).ready(function() {
 	//
 	setTimeout(function(){
 		$('#title').show();
-	}, 3000);
+		$('.borboletas').show();
+	}, 3500);
 	//
-  setTimeout(function(){
-		$('#title').hide();
-		$('.borboletas').hide();
-  }, 6000);
-		//
-  setTimeout(function(){
-		  $('body').addClass('loaded');
-			$('body').removeClass("noscroll");
-		}, 6400);
+  // setTimeout(function(){
+	// 	$('#title').hide();
+	// 	$('.borboletas').hide();
+  // }, 6000);
+	// 	//
+  // setTimeout(function(){
+	// 	  $('body').addClass('loaded');
+	// 		$('body').removeClass("noscroll");
+	// 	}, 6400);
  });
