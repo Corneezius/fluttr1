@@ -11,15 +11,15 @@ $(document).ready(function() {
 	setTimeout(function(){
 		$('#title').show();
 		$('.borboletas').show();
-	}, 3500);
+	}, 3000);
 	//
-  setTimeout(function(){
-		$('#title').hide();
-		$('.borboletas').hide();
-  }, 6000);
-		//
-  setTimeout(function(){
-		  $('body').addClass('loaded');
-			$('body').removeClass("noscroll");
-		}, 6400);
+  // setTimeout(function(){
+	// 	$('#title').hide();
+	// 	$('.borboletas').hide();
+  // }, 7000);
+	// 	//
+  // setTimeout(function(){
+	// 	  $('body').addClass('loaded');
+	// 		$('body').removeClass("noscroll");
+	// 	}, 6400);
  });

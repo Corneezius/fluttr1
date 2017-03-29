@@ -80,12 +80,35 @@ body {
 }
 .borboletas {
   position: absolute;
-  left: 20%;
-  bottom: 100px;
+  left: 45%;
+  top: 55%;
   -moz-animation: borboletas-pos-loop 7s ease-in-out infinite alternate-reverse;
   -webkit-animation: borboletas-pos-loop 7s ease-in-out infinite alternate-reverse;
   animation: borboletas-pos-loop 7s ease-in-out infinite alternate-reverse;
 }
+
+@media only screen and (min-device-width:768px) {
+    .borboletas {
+    left: 43%;
+    top: 65%;
+  }
+}
+
+@media only screen and (min-device-width:1024px) {
+    .borboletas {
+    left: 45%;
+    top: 59%;
+  }
+}
+
+@media only screen and (min-device-width:1200px) {
+    .borboletas {
+    top: 56%;
+  }
+}
+
+
+
 
 .borboleta-oval-squish {
   -moz-transform: scale(0.3, 1);
