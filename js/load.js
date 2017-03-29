@@ -13,13 +13,13 @@ $(document).ready(function() {
 		$('.borboletas').show();
 	}, 3500);
 	//
-  // setTimeout(function(){
-	// 	$('#title').hide();
-	// 	$('.borboletas').hide();
-  // }, 6000);
-	// 	//
-  // setTimeout(function(){
-	// 	  $('body').addClass('loaded');
-	// 		$('body').removeClass("noscroll");
-	// 	}, 6400);
+  setTimeout(function(){
+		$('#title').hide();
+		$('.borboletas').hide();
+  }, 6000);
+		//
+  setTimeout(function(){
+		  $('body').addClass('loaded');
+			$('body').removeClass("noscroll");
+		}, 6400);
  });
