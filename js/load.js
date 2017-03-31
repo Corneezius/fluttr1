@@ -1,7 +1,6 @@
 $(document).ready(function() {
 		$('#credit').hide(0).fadeIn(1000);
 		
-
 	setTimeout(function(){
 		$('#credit').fadeOut(1000);
 	}, 1500);
