@@ -98,7 +98,10 @@ div .slider-text h2{
 #header ul li a{
     font-weight: bold;
     text-transform: uppercase;
+    display: block;
+    width: 100px;
 }
+
 #header ul.sticky li a{
     color:#3F4443 !important;
 }
