@@ -1,6 +1,6 @@
 $(document).ready(function() {
 		$('#credit').hide(0).fadeIn(1000);
-		
+
 	setTimeout(function(){
 		$('#credit').fadeOut(1000);
 	}, 1500);
@@ -17,6 +17,7 @@ $(document).ready(function() {
 		//
   setTimeout(function(){
 		  $('body').addClass('loaded');
+			$('.animate').show();
 			$('body').removeClass("noscroll");
 		}, 7400);
  });

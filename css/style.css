@@ -640,3 +640,29 @@ font-size: 12px;
     }
 
   }
+
+  .animate  {
+  background: linear-gradient(270deg,#000428,#004e92,#237A57,#093028,#200122,#6f0000,#780206,#061161 );
+	background-size:600% 600%;
+	-webkit-animation: Gradient 360s ease infinite;
+	-moz-animation: Gradient 360s ease infinite;
+	animation: Gradient 360s ease infinite;
+  display:none;
+}
+
+
+    @-webkit-keyframes Gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@-moz-keyframes Gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@keyframes Gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
