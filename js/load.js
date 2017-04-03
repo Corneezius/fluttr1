@@ -13,11 +13,11 @@ $(document).ready(function() {
   setTimeout(function(){
 		$('#title').hide();
 		$('.borboletas').hide();
-  }, 7000);
+  }, 6000);
 		//
   setTimeout(function(){
 		  $('body').addClass('loaded');
 			$('.animate').show();
 			$('body').removeClass("noscroll");
-		}, 7400);
+		}, 6400);
  });
