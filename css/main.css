@@ -323,7 +323,7 @@ textarea {
 ===========================*/
 
 a, a:active, a:focus, a:active {text-decoration:none !important}
-img {max-width:100%}
+/*img {max-width:100%}*/
 h1, h2, h3, h4, h5, h6 {font-weight:normal;margin:0 0 15px;}
 .clearfix{clear: both}
 

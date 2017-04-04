@@ -454,6 +454,7 @@ font-size: 12px;
       display:none;
       background:white;
       font-family:gotham;
+      color:black;
     }
 
   @media only screen and (min-device-width:768px) {
@@ -666,3 +667,47 @@ font-size: 12px;
 		50%{background-position:100% 50%}
 		100%{background-position:0% 50%}
 	}
+
+  .feature-text {
+    text-align:left;
+  }
+
+  .description {
+    font-size:20px;
+    line-height:1.6;
+    color:#777;
+  }
+
+@media only screen and (min-device-width:768px) {
+  .description {
+  padding-left:30px;
+ }
+
+ .image-one {
+   width:120% !important;
+ }
+}
+
+@media only screen and (min-device-width:1024px) {
+  .description {
+  padding-left:0px;
+ }
+
+ .image-one {
+   width:130% !important;
+ }
+}
+
+
+@media only screen and (min-device-width:1200px) {
+  .description {
+  margin-left:-30px;
+  font-size:23px;
+  width:80%;
+  padding-left:30px;
+ }
+
+ .image-one {
+   width:138% !important;
+ }
+}
