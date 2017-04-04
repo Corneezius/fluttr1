@@ -452,7 +452,7 @@ font-size: 12px;
 
     #feature-set {
       display:none;
-      background:white;
+      background:#fdfdfd;
       font-family:gotham;
       color:black;
     }
