@@ -457,6 +457,13 @@ font-size: 12px;
       color:black;
     }
 
+    #product {
+      display:none;
+      background:#333;
+      font-family:gotham;
+      color:white;
+    }
+
   @media only screen and (min-device-width:768px) {
     #hero {
       display:block;
@@ -464,6 +471,13 @@ font-size: 12px;
 
     #feature-set {
       display:block;
+    }
+    #product {
+      display:block;
+    }
+
+    .image-two {
+      margin-left:-30px;
     }
 
     .navbar-default .navbar-nav > li > a {
@@ -590,6 +604,10 @@ font-size: 12px;
       font-size: 18px;
     }
 
+    .description-two {
+      padding-left:85px;
+    }
+
     #cover {
       height: 33vh;
     }
@@ -600,8 +618,20 @@ font-size: 12px;
       font-size:89px;
     }
 
+    #product {
+      padding-top:200px;
+    }
+
     #cover {
       height: 39vh;
+    }
+
+    .image-two {
+      margin-left:-100px;
+    }
+
+    .description-two {
+      padding-left:139px;
     }
 
     .slider-text-area {
@@ -668,14 +698,28 @@ font-size: 12px;
 		100%{background-position:0% 50%}
 	}
 
-  .feature-text {
+  .feature-text, .feature-text-2 {
     text-align:left;
   }
 
-  .description {
-    font-size:20px;
+  .description, .description-two{
+    font-size:19px;
     line-height:1.6;
+    width:90%;
+  }
+
+  .description-two {
+    color:white;
+  }
+
+  .description {
     color:#777;
+  }
+
+  .description-title {
+    text-transform:uppercase;
+    padding-left:30px;
+    text-align:left;
   }
 
 @media only screen and (min-device-width:768px) {
@@ -683,8 +727,17 @@ font-size: 12px;
   padding-left:30px;
  }
 
- .image-one {
+ .image-one, .image-two  {
    width:120% !important;
+ }
+
+ #product {
+   padding-top:160px;
+   padding-bottom:100px;
+ }
+
+ .description-two {
+   padding-left:30px;
  }
 }
 
@@ -693,7 +746,21 @@ font-size: 12px;
   padding-left:0px;
  }
 
- .image-one {
+ .description-title {
+   padding-left:0px;
+ }
+
+ .description, .description-two {
+   font-size:20px;
+   width:100%;
+ }
+
+ .description-two {
+   padding-left:92px;
+ }
+
+
+ .image-one, .image-two {
    width:130% !important;
  }
 }
@@ -705,6 +772,11 @@ font-size: 12px;
   font-size:23px;
   width:80%;
   padding-left:30px;
+ }
+
+ .description-two {
+   font-size:23px;
+   padding-left:134px;
  }
 
  .image-one {
