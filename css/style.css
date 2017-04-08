@@ -492,6 +492,7 @@ font-size: 12px;
     .sub-slider-text {
       font-size: 16px;
       font-family:sans-serif;
+      /*font-weight:700;*/
       letter-spacing:1px;
     }
 
@@ -712,16 +713,18 @@ font-size: 12px;
     font-size:19px;
     line-height:1.6;
     width:90%;
-  }
-
-  .description {
+    font-family:gotham_thinregular;
+    font-weight:700;
     color:#777;
+    text-rendering: optimizeLegibility;
+    /*letter-spacing:1px;*/
   }
 
   .description-title {
     text-transform:uppercase;
     padding-left:30px;
     text-align:left;
+    color:black;
   }
 
 @media only screen and (min-device-width:768px) {
