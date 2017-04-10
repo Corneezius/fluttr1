@@ -362,7 +362,6 @@ h1, h2, h3, h4, h5, h6 {font-weight:normal;margin:0 0 15px;}
 #slider{background-color:transparent !important;background-size: cover; background-position: center center; padding-bottom: 255px;padding-top: 180px;}
 #slider .block{}
 #slider .block h2{color: #fff;font-family: 'Gotham', sans-serif; font-weight: normal; margin:0px;text-transform: uppercase;font-size: 84px;}
-.slider-text-area{padding-top:50px;}
 .sub-slider-text{margin: 0px; font-size: 22px; color:#FFF;font-family: 'Gotham', sans-serif; font-weight: 300;line-height: 52px;}
 .slider-p{margin: 0px; color:#90BBC5; font-size: 14px;padding-top: 40px}
 .edit-button-1{background: none; border: 3px solid #91B1B5;  color: #FFF; font-family: 'Gotham', sans-serif; font-weight: 700; border-radius: 30px;padding: 10px 52px; display: block; overflow: hidden; margin-top: 50px}

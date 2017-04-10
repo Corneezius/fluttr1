@@ -751,6 +751,10 @@ font-size: 12px;
   padding-left:0px;
  }
 
+ .slider-text-area{
+   padding-top:50px;
+ }
+
  .description-title {
    padding-left:90px;
    color:black;
@@ -829,4 +833,10 @@ ul.list-social li.social-google-plus a {
 }
 ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
+}
+
+.signup {
+  width: 250px;
+  margin-top: 30px;
+  height: 30px;
 }
