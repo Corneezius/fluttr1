@@ -879,14 +879,14 @@ ul.list-social li.social-google-plus a:hover {
   border-radius: 50%;
 }
 
-.fa-comment-o {
+.fa-commenting {
   font-size: 20px;
   float: right;
   padding-right: 30px;
   padding-top: 10px;
 }
 
-.number-users {
+.number-comments {
   font-size: 15px;
   float: left;
   padding-top: 10px;
