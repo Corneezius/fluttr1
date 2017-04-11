@@ -34,7 +34,7 @@
 			<div class="loader-section section-right"></div>
 		</div>
 
-		<!-- Borboletas dance on top of pre-loader, then disappear with it -->
+		<!-- Borboletas(Butterflies) dance on top of pre-loader, then disappear with it -->
 		<div class="borboletas">
       <div class="borboleta-1">
         <div class="borboleta-oval-squish">
@@ -98,8 +98,8 @@
            <div class="slider-text text-center">
 	          <h2>Let Your Ideas Fly</h2>
 	          <p class="sub-slider-text">Fluttr is your crowdsourced notebook.</p>
-						<form id="signup">
-						  <input type="text" class="signup" placeholder="email@gmail.com" name="firstname">
+						<form id="signup-form" role="signup-form" onsubmit="return signup(this)"x>
+						  <input type="text" id="email" class="email" placeholder="email@gmail.com">
 						  <button type="submit" class="btn btn-success" id="submit">Subscribe</button>
 							<p class="alpha-signup">*Subscribe to test drive Fluttr Alpha!</p>
 						</form>
@@ -269,6 +269,8 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/load.js"></script>
 <script src="js/script.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
+<script src="js/firebaseForm.js"></script>
 <script src="js/anchorScroll.js"></script>
 
   </body>
