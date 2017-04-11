@@ -15,12 +15,21 @@ var signupForm = document.getElementById('signup-form');
 var signupSuccess = document.getElementById('signup-success');
 var signupError = document.getElementById('signup-error');
 
-var onSignupComplete = function(error) {
+
+var form = document.getElementById("signup-form");
+
+function handleForm(event) {
+  // prevent page reload
+  event.preventDefault();
   var userEmail = document.getElementById('email').value;
+  var myFirebaseRef = firebase.database().ref();
 
   signupError.innerHTML = '';
   signupSuccess.innerHTML = '';
   if (userEmail.includes("@")) {
+    myFirebaseRef.push({
+      email: userEmail,
+    });
     signupSuccess.innerHTML = 'Thanks for signing up!';
   } else {
     document.getElementById("email").value = "";
@@ -30,17 +39,5 @@ var onSignupComplete = function(error) {
   document.getElementById("email").value = "";
 };
 
-var form = document.getElementById("signup-form");
-
-function handleForm(event) {
-  // prevent page reload
-  event.preventDefault();
-  var userEmail = document.getElementById('email').value;
-  var myFirebaseRef = firebase.database().ref();
-  myFirebaseRef.push({
-    email: userEmail,
-  }, onSignupComplete);
-  return false;
-}
 
 form.addEventListener('submit', handleForm);
