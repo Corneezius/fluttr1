@@ -16,6 +16,7 @@ var signupSuccess = document.getElementById('signup-success');
 var signupError = document.getElementById('signup-error');
 
 var onSignupComplete = function(error) {
+  console.log("hello");
   signupBtn.disabled = false;
   if (error) {
     signupError.innerHTML = 'Sorry. Could not signup.';
