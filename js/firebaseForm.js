@@ -16,15 +16,18 @@ var signupSuccess = document.getElementById('signup-success');
 var signupError = document.getElementById('signup-error');
 
 var onSignupComplete = function(error) {
-  console.log("hello");
-  signupBtn.disabled = false;
-  if (error) {
-    signupError.innerHTML = 'Sorry. Could not signup.';
-  } else {
+  var userEmail = document.getElementById('email').value;
+
+  signupError.innerHTML = '';
+  signupSuccess.innerHTML = '';
+  if (userEmail.includes("@")) {
     signupSuccess.innerHTML = 'Thanks for signing up!';
-    // hide the form
-    signupForm.style.display = 'none';
+  } else {
+    document.getElementById("email").value = "";
+    signupError.innerHTML = 'Please make sure you have entered e-mail correctly.';
+    return false;
   }
+  document.getElementById("email").value = "";
 };
 
 var form = document.getElementById("signup-form");
@@ -37,8 +40,6 @@ function handleForm(event) {
   myFirebaseRef.push({
     email: userEmail,
   }, onSignupComplete);
-  document.getElementById("email").value = "";
-  signupBtn.disabled = true;
   return false;
 }
 
