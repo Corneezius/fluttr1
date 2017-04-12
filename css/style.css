@@ -132,11 +132,12 @@ div#team {
 }
 
 .team {
-  width: 167px;
-  margin-top: -30px;
+  width: 111px;
+  margin-top: 15px;
   margin-bottom: 35px;
   border-radius: 15px;
 }
+
 
 #features {
   height:58vh;
@@ -235,6 +236,7 @@ font-size: 12px;
   text-tranform: uppercase;
   letter-spacing: 1px;
   text-transform: uppercase;
+  padding-top:30px;
 }
 
 .feature-message {
@@ -294,12 +296,12 @@ font-size: 12px;
 }
 
 #social-media {
-  height:30vh;
-  background: #200122;
-  background: -webkit-linear-gradient(to left, #200122 , #6f0000);
-  background: linear-gradient(to left, #200122 , #6f0000);
-  display:none;
+  padding-bottom:100px;
+  background: #fdcc52;
+  background: -webkit-linear-gradient(#fdcc52, #fdc539);
+  background: linear-gradient(#fdcc52, #fdc539);
 }
+
 
 .fadeInBlock {
   opacity:0;
@@ -463,7 +465,7 @@ font-size: 12px;
     }
 
     #product {
-    
+      display:none;
       background:#fdfdfd;
       font-family:gotham;
       color:#777;
@@ -472,6 +474,17 @@ font-size: 12px;
   @media only screen and (min-device-width:768px) {
     #hero {
       display:block;
+    }
+
+    .team {
+      width: 167px;
+      margin-top: -30px;
+      margin-bottom: 35px;
+      border-radius: 15px;
+    }
+
+    .section-heading {
+      padding-top:0px
     }
 
     #feature-set {
@@ -901,7 +914,7 @@ ul.list-social li.social-google-plus a:hover {
 
 .corneezius-logo {
   display: block;
-  height: 50px;
+    height: 50px;
   width: 50px;
   line-height: 55px;
   font-size: 27px;
