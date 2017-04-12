@@ -899,6 +899,18 @@ ul.list-social li.social-google-plus a:hover {
   margin-top:-8px;
 }
 
+.corneezius-logo {
+  display: block;
+  height: 50px;
+  width: 50px;
+  line-height: 55px;
+  font-size: 27px;
+  border-radius: 100%;
+  color: white;
+  margin: 0 auto;
+  background: black;
+}
+
 @media only screen and (min-device-width:1200px) {
   .card {
     margin-left:-90px;
