@@ -80,12 +80,13 @@ body {
 }
 .borboletas {
   position: absolute;
-  left: 45%;
-  top: 55%;
+  left: 41%;
+  top: 41%;
   -moz-animation: borboletas-pos-loop 7s ease-in-out infinite alternate-reverse;
   -webkit-animation: borboletas-pos-loop 7s ease-in-out infinite alternate-reverse;
   animation: borboletas-pos-loop 7s ease-in-out infinite alternate-reverse;
 }
+
 
 @media only screen and (min-device-width:768px) {
     .borboletas {

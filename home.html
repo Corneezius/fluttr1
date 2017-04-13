@@ -99,7 +99,7 @@
 	          <h2>Let Your Ideas Fly</h2>
 	          <p class="sub-slider-text">Fluttr is your crowdsourced notebook.</p>
 						<form id="signup-form" role="signup-form">
-						  <input type="text" id="email" class="email" placeholder="your email" required>
+						  <input type="text" id="email" class="email" placeholder="email@gmail" required>
 						  <button type="submit" class="btn btn-success" id="submit">Subscribe</button>
 							<p class="alpha-signup">*Subscribe to test drive Fluttr Alpha!</p>
 						</form>
@@ -129,7 +129,7 @@
         <div class="message">
           <img src="css/images/hello.png" class="header-image"  alt="">
           <i class="fa fa-caret-down faa-bounce animated"></i>
-          <button class="login btn"></button>
+          <button class="login btn" data-toggle="modal" data-target="#myModalHorizontal"></button>
         </div>
       </div>
     </div>
@@ -137,7 +137,7 @@
 		<!-- Story Card Title for Mobile Experience -->
 		<div id="features">
 		  <div class="feature-message">
-		    <h2 class="section-heading">Story</h2>
+		    <h2 class="section-heading no-padding-top">Story</h2>
 		  </div>
 		</div>
 		<!-- Story Card Title End -->
@@ -184,6 +184,14 @@
 		</div>
 <!-- Story end -->
 
+<div id="contact">
+	<div class="feature-product">
+	 <h2 class="message-fly">Let your ideas fly</h2>
+	 <p class="sub-header">Fluttr is your crowdsourced notebook.</p>
+	 <button class="btn-large preview" data-toggle="modal" data-target="#myModalHorizontal">preview</button>
+ </div>
+</div>
+
 <!-- Product, appears on larger screens -->
 <div id="product">
 	<div class="container">
@@ -205,6 +213,7 @@
 								 <div class="idea-message">
 									 <h2 class="idea-title">An anthology about faith authored by a million people</h2>
 									 <p class="idea-author">-via <img class="idea-avatar" src="css/images/cornelius.jpg" alt="cornelius"> CORNEEZIUS </p>
+
 									 <!-- <span class="number-likes">10k</span><i class="fa fa-heart" aria-hidden="true"></i> -->
 									 <span class="number-comments">2.3k</span><i class="fa fa-commenting" aria-hidden="true"></i>
 							 </div>
@@ -218,13 +227,6 @@
 	</div>
 <!-- Product end -->
 
- <div id="contact">
-   <div class="feature-product">
-    <h2 class="message-fly">Let your ideas fly</h2>
-    <p class="sub-header">Fluttr is your crowdsourced notebook.</p>
-    <button class="btn-large preview">preview</button>
-  </div>
-</div>
 <!-- Team -->
 <div id="team" class="animate">
 	<div class="team-message">
@@ -260,6 +262,55 @@
 	</ul>
  </div>
 </div>
+
+
+<!-- Mobile Modal Signup -->
+<div class="modal fade" id="myModalHorizontal" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header red">
+                <button type="button" class="close"
+                   data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    Modal title
+                </h4>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="modal-body">
+
+                <form class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <label  class="col-sm-2 control-label"
+                              for="inputEmail3">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control"
+                        id="inputEmail3" placeholder="Email"/>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <button type="submit" class="btn btn-success">Subscribe</button>
+                    </div>
+                  </div>
+                </form>
+            </div>
+            <!-- Modal Footer -->
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
 
 
 <footer id="footer-fade">
