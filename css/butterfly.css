@@ -82,9 +82,9 @@ body {
   position: absolute;
   left: 41%;
   top: 41%;
-  -moz-animation: borboletas-pos-loop 7s ease-in-out infinite alternate-reverse;
-  -webkit-animation: borboletas-pos-loop 7s ease-in-out infinite alternate-reverse;
-  animation: borboletas-pos-loop 7s ease-in-out infinite alternate-reverse;
+  -moz-animation: borboletas-pos-loop 12s ease-in-out infinite alternate-reverse;
+  -webkit-animation: borboletas-pos-loop 12s ease-in-out infinite alternate-reverse;
+  animation: borboletas-pos-loop 12s ease-in-out infinite alternate-reverse;
 }
 
 
