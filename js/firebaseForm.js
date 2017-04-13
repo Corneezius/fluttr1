@@ -22,6 +22,7 @@ function handleForm(event) {
   // prevent page reload
   event.preventDefault();
   var userEmail = document.getElementById('email').value;
+  console.log(userEmail)
   var myFirebaseRef = firebase.database().ref();
 
   signupError.innerHTML = '';
@@ -31,12 +32,12 @@ function handleForm(event) {
       email: userEmail,
     });
     jQuery(function($) {
-    $("#signup-success").html("Thanks for signing up!").fadeOut(3000);
+    $("#signup-success").html("Thanks for signing up!").show().fadeOut(2000);
     });
   } else {
     document.getElementById("email").value = "";
     jQuery(function($) {
-    $("#signup-error").html('Please make sure you entered your e-mail correctly!').fadeOut(3000);
+    $("#signup-error").html('Please make sure you entered your e-mail correctly!').show().fadeOut(2000);
     });
     return false;
   }
