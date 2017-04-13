@@ -31,14 +31,13 @@ function handleForm(event) {
       email: userEmail,
     });
     jQuery(function($) {
-    // ...
-    $("#signupSuccess").css("height":"430px");
-
-});
-    signupSuccess.innerHTML = 'Thanks for signing up!';
+    $("#signup-success").html("Thanks for signing up!").fadeOut(3000);
+    });
   } else {
     document.getElementById("email").value = "";
-    signupError.innerHTML = 'Please make sure you entered your e-mail correctly!';
+    jQuery(function($) {
+    $("#signup-error").html('Please make sure you entered your e-mail correctly!').fadeOut(3000);
+    });
     return false;
   }
   document.getElementById("email").value = "";
