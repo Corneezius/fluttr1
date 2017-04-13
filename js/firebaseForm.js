@@ -30,10 +30,15 @@ function handleForm(event) {
     myFirebaseRef.push({
       email: userEmail,
     });
+    jQuery(function($) {
+    // ...
+    $("#signupSuccess").css("height":"430px");
+
+});
     signupSuccess.innerHTML = 'Thanks for signing up!';
   } else {
     document.getElementById("email").value = "";
-    signupError.innerHTML = 'Please make sure you have entered e-mail correctly.';
+    signupError.innerHTML = 'Please make sure you entered your e-mail correctly!';
     return false;
   }
   document.getElementById("email").value = "";
