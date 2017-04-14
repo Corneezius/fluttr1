@@ -32,12 +32,12 @@ function handleForm(event) {
       email: userEmail,
     });
     jQuery(function($) {
-    $("#signup-success").html("Thanks for signing up!").show().fadeOut(2000);
+    $("#signup-success").html("Thanks for signing up!").show().delay(3000).fadeOut(2000);
     });
   } else {
     document.getElementById("email").value = "";
     jQuery(function($) {
-    $("#signup-error").html('Please make sure you entered your e-mail correctly!').show().fadeOut(2000);
+    $("#signup-error").html('Please make sure you entered your e-mail correctly!').show().delay(3000).fadeOut(2000);
     });
     return false;
   }
